@@ -180,7 +180,22 @@ not_in_nav: |
 
 # Page tree
 nav:
-  - Resources: index.md
+  - Resources:
+    - Full List: resources.md
+    - Specifications & Standards: specifications.md
+    - Learning Records Stores: lrs.md
+    - xAPI Tools & Utilities: tools.md
+    - Client Libraries: client-libraries.md
+    - xAPI Profiles & Registries: profiles.md
+    - Data Visualization & Analytics: data-visualization.md
+    - Use Cases & Case Studies: use-cases.md
+    - Learning Engineering: learning-engineering.md
+    - Events & Cohorts: events.md
+    - Thought Leadership: leaders.md
+    - Open-Source Projects: open-projects.md
+    - Educational Material & Learning Pathways: material.md
+    - Integrations & Connections: integrations.md
+    - Total Learning Architecture (TLA): tla.md
   - Contributing:
     - Contributing:
       - contributing/index.md
