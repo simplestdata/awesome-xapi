@@ -181,7 +181,7 @@ not_in_nav: |
 # Page tree
 nav:
   - Resources:
-    - Full List: resources.md
+    - resources.md
     - Specifications & Standards: specifications.md
     - Learning Records Stores: lrs.md
     - xAPI Tools & Utilities: tools.md
@@ -198,9 +198,5 @@ nav:
     - Total Learning Architecture (TLA): tla.md
   - Contributing:
     - contributing/index.md
-    - Reporting a bug: contributing/reporting-a-bug.md
-    - Reporting a docs issue: contributing/reporting-a-docs-issue.md
     - Requesting a change: contributing/requesting-a-change.md
-    - Adding translations: contributing/adding-translations.md
     - Making a pull request: contributing/making-a-pull-request.md
-    - Asking a question: https://github.com/squidfunk/mkdocs-material/discussions

@@ -1,101 +1,26 @@
 # Contributing
 
-Material for MkDocs is an actively maintained and constantly evolving project
-serving a diverse user base with versatile backgrounds and needs. In order to
-efficiently address the requirements of all our users, evaluate change requests,
+Awesome xAPI is an actively maintained and constantly evolving list of opinionated xAPI resources that come from the community. In order to
+efficiently address resource requests, evaluate change requests,
 and fix bugs, we put in a lot of work.
 
-Our ever-growing community includes many active users, who open new
-issues and discussions several times a day, evolving our [issue tracker] and
-[discussion board] into a knowledge base – an important addition to
-our [documentation] – yielding value to both new and experienced users.
-
-  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
-  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
-  [documentation]: https://squidfunk.github.io/mkdocs-material/
+The ever-growing community we expect to open new
+issues and discussions over time. This documentation serves as a knowledge base for the community to find what they need quickly and efficiently.
 
 ## How you can contribute
 
-We understand that reporting bugs, raising change requests, as well as engaging
+We understand that suggestiong awesome resources, reporting bugs, raising change requests, as well as engaging
 in discussions can be time-consuming, which is why we've carefully optimized our
 issue templates and defined guidelines to improve the overall interaction
-within the project. We've invested a lot of time and effort into making our
-[issue tracker] and [discussion board] as efficient as possible.
+within the project. 
 
-Our goal is to ensure that our documentation, as well as issue tracker and
-discussion board, are __well-structured__, __easy to navigate__, and
-__searchable__, so you can find what you need quickly and efficiently. Thus,
-when you follow our guidelines, we can help you much faster.
+Our goal is to ensure that this list is truly opinionated and hence forth judged as __awesome__ for all intents and purposes. 
 
 In this section, we guide your through our processes.
-
-### Creating an issue
-
-<div class="grid cards" markdown>
-
--   :material-bug-outline: &nbsp;
-    __Something is not working?__
-
-    ---
-
-    Report a bug in Material for MkDocs by creating an issue with a
-    reproduction
-
-    ---
-
-    [:octicons-arrow-right-24: Report a bug][report a bug]
-
--   :material-file-document-remove-outline: &nbsp;
-    __Missing information in our docs?__
-
-    ---
-
-    Report missing information or potential inconsistencies in our
-    documentation
-
-    ---
-
-    [:octicons-arrow-right-24: Report a docs issue][report a docs issue]
-
--   :material-lightbulb-on-20: &nbsp;
-    __Want to submit an idea?__
-
-    ---
-
-    Propose a change, feature request, or suggest an improvement
-
-    ---
-
-    [:octicons-arrow-right-24: Request a change][request a change]
-
--   :material-account-question-outline: &nbsp;
-    __Have a question or need help?__
-
-    ---
-
-    Ask a question on our [discussion board] and get in touch with our
-    community
-
-    ---
-
-    [:octicons-arrow-right-24: Ask a question][discussion board]
-
-</div>
 
 ### Contributing
 
 <div class="grid cards" markdown>
-
--   :material-translate: &nbsp;
-    __Missing support for your language?__
-
-    ---
-
-    Add or improve translations for a new or already supported language
-
-    ---
-
-    [:octicons-arrow-right-24: Add translations][add translations]
 
 -   :material-source-pull: &nbsp;
     __Want to create a pull request?__
@@ -107,6 +32,18 @@ In this section, we guide your through our processes.
     ---
 
     [:octicons-arrow-right-24: Create a pull request][create a pull request]
+
+-   :material-lightbulb-on-20: &nbsp;
+    __Want to submit an awesome resource?__
+
+    ---
+
+    Propose a change, feature request, or suggest an awesome resource
+
+    ---
+
+    [:octicons-arrow-right-24: Request a change][request a change]    
+
 
 </div>
 
@@ -130,20 +67,10 @@ with our community.
     constructive, follow our contribution guidelines, and comply with our
     [Code of Conduct].
 
-### Before creating an issue
 
-- Are you using the appropriate issue template, or is there another issue
-  template that better fits the context of your request?
+### Before submitting an awesome resource
 
-- Have you checked if a similar bug report or change request has already been
-  created, or have you stumbled upon something that might be related?
-
-- Did your fill out every field as requested and did you provide all additional
-  information we maintainers need to comprehend your request?
-
-### Before asking a question
-
-- Is the topic a question for our [discussion board], or is it a bug report or
+- Is the resource a question for our [discussion board], or is it a bug report or
   change request that should better be raised on our [issue tracker]?
 
 - Is there an open discussion on the topic of your request? If the answer is yes,
@@ -154,25 +81,11 @@ with our community.
   understand your question and help you quickly, or can you make it easier to
   help you?
 
-### Before commenting
-
-- Is your comment relevant to the topic of the current page, post, issue, or
-  discussion, or is it a better idea to create a new issue or discussion?
-
-- Does your comment add value to the conversation? Is it constructive and
-  respectful to our community and us maintainers? Could you just use a
-  [:octicons-smiley-16: reaction][reaction] instead?
-
-  [Code of Conduct]: https://github.com/squidfunk/mkdocs-material/blob/master/CODE_OF_CONDUCT.md
-  [reaction]: https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/
-
 ## Rights and responsibilities
 
 As maintainers, we are entrusted with the __responsibility__ to moderate
-communication within our community, including the authority to close, remove,
-reject, or edit issues, discussions, comments, commits, and to block users who
-__do not align__ with our contribution guidelines and our [Code of Conduct].
-This role requires us to be actively involved in maintaining the integrity and
+communication within our community, including the authority to close, remove, reject, or edit issues, discussions, comments, commits, and to block users who
+__do not align__ with our contribution guidelines and our [Code of Conduct]. This role requires us to be actively involved in maintaining the integrity and
 positive atmosphere of our community. Upholding these standards decisively
 ensures a respectful and inclusive environment for all members.
 
