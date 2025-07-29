@@ -5,62 +5,91 @@
 {% block tabs %}
   {{ super() }}
   <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
-  <section class="mdx-container">
-    <div class="md-grid md-typeset">
-      <div class="mdx-hero">
-        <div class="mdx-hero__content">
-          <h1>Opinionated xAPI Resources by Opinonated Professionals</h1>
-          <p>{{ config.site_description }}. Set up in 5 minutes.</p>
-          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-            Get Started
-          </a>
-          <a href="https://github.com/simplestdata/awesome-xapi" title="Awesome xAPI Support" class="md-button">
-            View on GitHub
-          </a>
+  <section class="deploy-section">
+    <div class="deploy-container">
+      <h2 class="subtitle">Get up to speed faster</h2>
+      <p class="title">
+        Everything you need to get started in xAPI
+        <div class="md-grid md-typeset">
+          <div class="mdx-hero__content">
+            <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+              Get Started
+            </a>
+            <a href="https://github.com/simplestdata/awesome-xapi" title="Awesome xAPI Support" class="md-button">
+              View on GitHub
+            </a>
+          </div>
+      </div>
+      <div class="deploy-grid">
+        <!-- Performance -->
+        <div class="card performance">
+          <img src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-performance.png"
+               alt="Performance" class="card-img">
+          <div class="card-body">
+            <h3 class="card-category">Performance</h3>
+            <p class="card-title">Lightning-fast builds</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida justo et nulla
+              efficitur, maximus egestas sem pellentesque.
+            </p>
+          </div>
+        </div>
+
+        <!-- Releases -->
+        <div class="card releases">
+          <img src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-releases.png"
+               alt="Releases" class="card-img">
+          <div class="card-body">
+            <h3 class="card-category">Releases</h3>
+            <p class="card-title">Push to deploy</p>
+            <p class="card-text">
+              Curabitur auctor, ex quis auctor venenatis, eros arcu rhoncus massa, laoreet dapibus
+              ex elit vitae odio.
+            </p>
+          </div>
+        </div>
+
+        <!-- Speed -->
+        <div class="card speed">
+          <img src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-speed.png"
+               alt="Speed" class="card-img">
+          <div class="card-body">
+            <h3 class="card-category">Speed</h3>
+            <p class="card-title">Built for power users</p>
+            <p class="card-text">
+              Sed congue eros non finibus molestie. Vestibulum euismod augue.
+            </p>
+          </div>
+        </div>
+
+        <!-- Integrations -->
+        <div class="card integrations">
+          <img src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-integrations.png"
+               alt="Integrations" class="card-img">
+          <div class="card-body">
+            <h3 class="card-category">Integrations</h3>
+            <p class="card-title">Connect your favorite tools</p>
+            <p class="card-text">
+              Maecenas at augue sed elit dictum vulputate, in nisi aliquam maximus arcu.
+            </p>
+          </div>
+        </div>
+
+        <!-- Network -->
+        <div class="card network">
+          <img src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-network.png"
+               alt="Network" class="card-img">
+          <div class="card-body">
+            <h3 class="card-category">Network</h3>
+            <p class="card-title">Globally distributed CDN</p>
+            <p class="card-text">
+              Aenean vulputate justo commodo auctor vehicula in malesuada semper.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
-<section class="md-typeset">
-  <div class="md-grid mdx-hero">
-    <div class="mdx-hero__content">
-    <h2 style="text-align:left;">What to expect and where to find it</h2>
-    </div>
-    <div class="feature-grid">
-
-      <div class="feature-card">
-        <h3>It's just Markdown</h3>
-        <p>No HTML/CSS needed – focus purely on content.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Responsive by Default</h3>
-        <p>Looks great on desktop, tablet, and mobile.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Easy Customization</h3>
-        <p>Configure colors, fonts, icons, and more.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Fast & SEO Friendly</h3>
-        <p>Material loads quickly and ranks well in search engines.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Open Source</h3>
-        <p>Built with open standards and maintained by the community.</p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Full Ownership</h3>
-        <p>All content stays in your repo – no lock-in.</p>
-      </div>
-
-    </div>
-  </div>
-</section>
 {% endblock %}
 {% block content %}{% endblock %}
 {% block footer %}{% endblock %}
