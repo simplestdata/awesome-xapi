@@ -26,15 +26,15 @@
 /* === Headings === */
 .subtitle {
   font-size: 1rem;
-  font-weight: 600;
-  color: #4f46e5; /* indigo-600 */
+  font-weight: 400;
+  color: #ababab; /* indigo-600 */
   margin: 0;
 }
 .title {
   margin: 0.5rem 0 1rem;
   max-width: 32rem; /* ~512px */
-  font-size: 2.25rem; /* text-4xl */
-  font-weight: 600;
+  font-size: 1.63rem; /* text-4xl */
+  font-weight: 500;
   color: #111827; /* gray-950 */
 }
 @media (min-width: 640px) {
