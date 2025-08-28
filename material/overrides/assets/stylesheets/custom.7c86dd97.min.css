@@ -165,11 +165,11 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* --- Typography --- */
 .text-sm\/6 { font-size: .875rem; line-height: 1.5rem; }
-.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+.text-lg { font-size: 1rem; line-height: 1.75rem; }
 .text-xl\/8 { font-size: 1.25rem; line-height: 2rem; }
-.text-5xl { font-size: 3rem; line-height: 1; }
+.text-5xl { font-size: 2.4rem; line-height: 1; }
 .sm\:text-7xl {}
-@media (min-width:640px){ .sm\:text-7xl { font-size: 4.5rem; line-height: 1; } }
+@media (min-width:640px){ .sm\:text-7xl { font-size: 3rem; line-height: 1; } }
 
 .font-medium { font-weight: 500; }
 .font-semibold { font-weight: 600; }
@@ -414,3 +414,4 @@ a:hover .text-gray-400 { color: var(--gray-300); }
 .deploy-section .\[clip-path\:inset\(0\)\]{
   clip-path: none !important;
 }
+

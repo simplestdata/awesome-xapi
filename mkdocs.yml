@@ -197,6 +197,5 @@ nav:
     - support/index.md
     - Requesting a change: support/requesting-a-change.md
     - Making a pull request: support/making-a-pull-request.md
-  - Changelog:
-    - changelog/index.md
+    - FAQs: support/faqs.md
 
