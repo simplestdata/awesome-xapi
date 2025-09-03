@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\u200b\\-_,:!=\\[\\]()\"`/]+|\\.(?!\\d)|&[lg]t;|(?!\\b)(?=[A-Z][a-z])","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"xAPI Standards Documentation","text":"<p>Welcome to Awesome xAPI Resources</p>"},{"location":"blog/","title":"Blog","text":""}]}
