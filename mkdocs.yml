@@ -181,21 +181,15 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
-  - Resources:
-    - resources/index.md
-    - Getting Started: resources/getting-started.md
-    - Best Practices: resources/best-practices.md
-    - xAPI Profiles & Registries: resources/profiles.md
-    - Learning Record Stores (LRS): resources/lrs.md
-    - Tools and Utilities: resources/tools.md
-    - Data Modeling and Analytics: resources/data-modeling.md
-    - Learning Engineering: resources/learning-engineering.md
-    - Security, Compliance, and Governance: resources/security.md
-    - Advanced Topics: resources/advanced.md
-    - Case Studies and Materials: resources/materials.md
-  - Support:
-    - support/index.md
-    - Requesting a change: support/requesting-a-change.md
-    - Making a pull request: support/making-a-pull-request.md
-    - FAQs: support/faqs.md
-
+  - Help & Community:
+    - Resources:
+      - "Community resources": 
+        - Community: resources/community.md
+        - IEEE LTSC Working Groups: https://sagroups.ieee.org/ltsc/workgroups/
+        - TLA Study Group: https://www.tlastudygroup.com/
+        - ADL History: https://www.adlnet.gov/news/2023/11/22/xAPI-Officially-Becomes-a-Published-IEEE-Standard/  
+      - "Additional resources":
+        - Support: https://simplestdata.com/contact
+        - Experts community forum: https://community.simplestdata.com
+        - Blog: https://blog.simplestdata.com
+        - Simplest Home: https://simplestdata.com
